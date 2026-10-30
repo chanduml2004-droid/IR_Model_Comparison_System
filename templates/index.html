@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IR Model Comparison System</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><header><div class="wrap"><p class="eyebrow">INFORMATION RETRIEVAL PROJECT</p><h1>IR Model Comparison System</h1><p>Run two retrieval models on the same document collection and compare their results.</p></div></header>
+<main class="wrap">
+<section class="panel"><h2>Search documents</h2><p class="muted">Boolean model supports AND, OR and NOT. TF-IDF ranks documents using cosine similarity.</p>
+<form id="searchForm"><input id="query" placeholder="Try: information retrieval OR search" required><button>Compare models</button></form><p class="hint">Example: <code>information AND retrieval</code> or <code>machine learning</code></p></section>
+<section id="results" class="results hidden"><div class="section-head"><h2>Comparison results</h2><span id="queryLabel"></span></div><div class="columns"><div class="result-panel"><h3>Boolean Retrieval</h3><p class="muted">Exact matching using Boolean operators</p><div id="booleanResults"></div></div><div class="result-panel"><h3>TF-IDF / Cosine Similarity</h3><p class="muted">Ranked by term-weight similarity</p><div id="tfidfResults"></div></div></div></section>
+<section class="panel"><div class="section-head"><div><h2>Document Library</h2><p class="muted">Documents used by both retrieval models.</p></div><span id="docCount" class="count"></span></div>
+<div id="documentList" class="doc-list"></div>
+<details><summary>+ Add a document</summary><form id="addForm" class="add-form"><input id="docTitle" placeholder="Document title" required><textarea id="docContent" placeholder="Document text/content" rows="4" required></textarea><button type="submit">Add document</button></form></details></section>
+<footer>Built with Python, Flask, HTML, CSS and JavaScript · Data stored in data/documents.json</footer>
+</main><script src="/static/app.js"></script></body></html>

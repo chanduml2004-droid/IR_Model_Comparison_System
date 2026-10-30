@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Information Retrieval",
+    "content": "Information retrieval is the process of finding relevant information from a collection of documents. Search engines use indexing and ranking methods to return useful results."
+  },
+  {
+    "id": 2,
+    "title": "Boolean Retrieval Model",
+    "content": "The Boolean retrieval model represents documents using terms and retrieves documents with Boolean operators AND OR and NOT. It is based on exact term matching."
+  },
+  {
+    "id": 3,
+    "title": "Vector Space Model",
+    "content": "The vector space model represents documents and queries as vectors. TF IDF weights terms and cosine similarity ranks documents by relevance."
+  },
+  {
+    "id": 4,
+    "title": "Inverted Index",
+    "content": "An inverted index maps each term to the documents that contain it. It makes searching large document collections faster and more efficient."
+  },
+  {
+    "id": 5,
+    "title": "Web Search Engines",
+    "content": "Web search engines crawl pages, build indexes, process user queries, and rank results. Ranking algorithms consider relevance, quality, and other signals."
+  },
+  {
+    "id": 6,
+    "title": "Natural Language Processing",
+    "content": "Natural language processing helps computers analyze human language. Tokenization, normalization, stemming, and stop word removal are common text processing steps."
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning",
+    "content": "Machine learning systems learn patterns from data. Classification, clustering, and neural networks are used in many information retrieval applications."
+  },
+  {
+    "id": 8,
+    "title": "Database Management",
+    "content": "A database stores structured information and supports efficient querying. Indexes improve lookup speed and database performance."
+  },
+  {
+    "id": 9,
+    "title": "Text Mining",
+    "content": "Text mining extracts useful patterns and knowledge from unstructured text. It often uses information retrieval, statistics, and machine learning."
+  },
+  {
+    "id": 10,
+    "title": "Evaluation of Retrieval Systems",
+    "content": "Information retrieval systems are evaluated using precision, recall, F1 score, and ranking measures such as mean average precision."
+  }
+]
